@@ -11,6 +11,7 @@ const SignUp = () => {
     
    const navigate = useNavigate(); 
     const [createUserWithEmailAndPassword, user] = useCreateUserWithEmailAndPassword(auth)
+
     const handleEmailBlur = event =>{
         setEmail(event.target.value);
     }
